@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP boutique</title>
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap-5.3.6-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--Barre de navigaion -->
+        <nav class="navbar navbar-expand-lg bg-primary navbars">
+            <div class="container">
+            <a class="navbar-brand" href="#"><span>MCP</span> boutique</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Accueil</a>
+                </li>
+                <!--créeons une liste de menu deroulant pour faciliter la tache aux utilisateurs-->
+                <div class="dropdown">
+                    <a class="btn  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Produits
+                    </a> 
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#pack1">pack 1</a></li>
+                    <li><a class="dropdown-item" href="#pack2">pack 2</a></li>
+                    <li><a class="dropdown-item" href="#pack3">pack 3</a></li>
+                    <li><a class="dropdown-item" href="#pack4">pack 4</a></li>
+                    </ul>
+                </div>
+                </ul>
+            </div>
+            </div>
+        </nav>
+      <!--créeons une section hero pour rendre le site plus attrayant-->
+       <section class="hero">
+        <div class="container">
+            <video src="video/6314297_Kitchen_Indoors_3840x2160.webm" autoplay loop playsinline></video> <!--permet a la video de tourner en bocle-->
+            <div class="hero-content ">
+                <h1>Bienvenue dans notre <span>boutique</span> </h1>
+                <p>Découvrez nos produits de qualité supérieure</p>
+                <a href="#produits" class="btn btn-primary rounded-2">Voir les produits</a>
+        </div>
+       </section>
+
+         <!--section avantage pour doner plus de confiance a l'utilisateur -->
+         <section class="mt-4">
+            <div class="container text-center">
+                <h2 class="mb-4 dev">Pourquoi <span>nous choisir?</span> </h2>
+                <div class="row justify-content-center">
+
+                    <!--item-->
+                    <div class="col-md-3 mb-3 text-center avantage-item">
+                        <i class="fa-solid fa-truck fa-3x"></i>
+                        <h2>Livraison</h2>
+                        <p>Nous offrons une livraison rapide et fiable pour tous nos produits.</p>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center avantage-item">
+                        <i class="fa-solid fa-gift fa-3x"></i>
+                        <h2>Garantie</h2>
+                        <p>Nos produits sont garantis pour vous offrir la meilleure expérience possible. Avec nous vous êtes satisfaire ou rembourser.</p>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center avantage-item">
+                        <i class="fa-solid fa-lock fa-3x"></i>
+                        <h2>Sécurité</h2>
+                        <p>Vos données sont en sécurité avec nous, car nous utilisons les dernières technologies de sécurité.</p>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center avantage-item">
+                        <i class="fa-solid fa-headphones fa-3x"></i>
+                        <h2>Information</h2>
+                        <p>Nous vous tenons informé de l'état de votre commande à chaque étape du processus. Notre service est ouvert 24h/24 7j/7</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+            <!--section produits -->
+            <section id="produits" class="mt-4">
+                <div class="container text-center">
+                    <div class="text-center">
+                        <p class="mb-4">
+                            <span class="p-3 rounded-2 text-bg-primary">Nos Produits</span>
+                        </p>
+                        <h2 class="fw-bold h4 mb-4">Notre gamme de produits à ne pas manquer chez vous </h2>
+                    </div>
+                    
+                    <div class="row">
+                        
+                        <!--item nous allons inserer notre premier produit et nous utiliser 4 colonnes sur les 12 possible et nous ferons pareil pour les autres-->
+                        <div id="pack1" class="col-lg-4 mb-4">
+                            <div class="card border-1 h-100 rounded-2 shadow-sm">
+
+
+                                <div class="card-body">
+                                    <img src="image/WhatsApp Image 2025-05-01 at 11.22.43 (3).jpeg" alt="utensil-cuisine" class="object-fit-cover rounded-2" width="100%" height="250px">
+                                    <h3 class="fw-bold h5">Aiguiseur</h3>
+                                    <p>Notre aiguiseur vous permet vos outils tels que : les couteaux, ciseaux....</p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <a href="" class="btn btn-primary">Acheter maintenant</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--item -->
+                        <div id="pack2" class="col-lg-4 mb-4">
+                            <div class="card border-1 h-100 rounded-2 shadow-sm">
+
+
+                                <div class="card-body">
+                                    <img src="image/wood-utensils_74190-7046.webp" alt="utensil-cuisine" class="object-fit-cover rounded-2" width="100%" height="250px">
+                                    <h3 class="fw-bold h5">pack ecurmoi</h3>
+                                    <p>Notre ensemble d'écurmoi en bois d'une tres bonne qualité, qui ne deteint pas</p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <a href="" class="btn btn-primary">Acheter maintenant</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--item -->
+                        <div id="pack3" class="col-lg-4 mb-4">
+                            <div class="card border-1 h-100 rounded-2 shadow-sm">
+
+
+                                <div class="card-body">
+                                    <img src="image/bright-plastic-disposable-tableware-isolated-white_392895-492201.webp" alt="utensil-cuisine" class="object-fit-cover rounded-2" width="100%" height="150px">
+                                    <h3 class="fw-bold h5">Plastique</h3>
+                                    <p>Notre ensemble de plastique j'étable a un imbattable sur le marché.</p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <a href="" class="btn btn-primary">Acheter maintenant</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--item -->
+                        <div id="pack4" class="col-lg-4 mb-4">
+                            <div class="card border-1 h-100 rounded-2 shadow-sm">
+
+
+                                <div class="card-body">
+                                    <img src="image/kitchen-cutlery-metal-stand-wooden-table-bright-background_392895-249586.webp" alt="utensil-cuisine" class="object-fit-cover rounded-2" width="70%" height="250px">
+                                    <h3 class="fw-bold h5">Pack à cuillère</h3>
+                                    <p>Découvrez notre pack a cuillière de très bonne qualité</p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <a href="" class="btn btn-primary">Acheter maintenant</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <footer class="mt-5 bg-primary">
+                <div class="container">
+                    <!--créeons notre newsletters pour informer les utilisateurs d'un nouvel arrivage-->
+                    <div class="card bg-dark rounded-2 mt-3">
+                        <div class="card-body p-4">
+                            <h2 class="text-white p-3">Veuillez nous laisser votre e-mail pour informer des nouveauté avenir!</h2>
+                            <div class="row mb-4">
+                                <div class="col-md-10 mb-3 mb-lg-0">
+                                    <input type="text" placeholder="Ecrivez votre e-mail ici" class="form-control form-control-lg">
+                                </div>
+                                <div class="col-md-2 mb-3 mb-lg-0">
+                                    <button class="btn btn-warning w-100 btn-lg">Envoyer</button>
+                                </div>
+                            </div>
+                            <!--ceci est fait pour mettre les liens des reseaux sociaux pour permettre aux utilisateurs de nous suivre-->
+                            <div class="d-flex gap-2">
+                                <h3 class="fw-bold text-white">Nos reseaux sociaux :</h3>
+                                <div class="d-flex gap-2">
+                                    <a href="#" target="_blank"  class="text-decoration-none text-dark"><i class="fa-brands fa-whatsapp fa-2x text-white"></i></a>
+                                    <a href="#" target="_blank"  class="text-decoration-none text-dark"><i class="fa-brands fa-facebook fa-2x text-white"></i></a>
+                                    <a href="#"  target="_blank" class="text-decoration-none text-dark"><i class="fa-brands fa-instagram fa-2x text-white"></i></a>
+                                    <a href="#" target="_blank"  class="text-decoration-none text-dark"><i class="fa-brands fa-x fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    <script src="bootstrap-5.3.6-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

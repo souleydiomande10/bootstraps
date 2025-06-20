@@ -1,0 +1,90 @@
+:root{
+    --primary-color:#fcf801;
+    --secondary-color: #ffffff;
+    --tertiary-color: #1a1a1a;
+    --forth-color: #0201a5;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbars{
+    border-bottom: 4px solid var(--forth-color);
+    color: var(--secondary-color);
+}
+
+.navbars a{
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav span{
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero div .hero-content{
+    z-index: 1;
+    text-align: center;
+    color: var(--secondary-color);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.hero div .hero-content h1{
+    font-size: 76px;
+    font-weight: 900;
+}
+
+.hero div .hero-content h1 span{
+    color: var(--primary-color);
+}
+
+.hero div .hero-content p{
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+i{
+    color: var(--forth-color);
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.dev span{
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.avantage-item h2{
+    color: var(--forth-color);
+}
+
+footer{
+    border-top: 4px solid var(--forth-color);
+}
